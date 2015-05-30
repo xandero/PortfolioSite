@@ -48,11 +48,10 @@
 	<!-- Home start -->
 
 	<section id="home" class="module-image js-height-full">
-
 		<div class="intro">
 			<div class="hello">Hey, I'm Xander, and</div>
 			<h1>I'm a Full-Stack Developer</h1>
-			<div class="who-creates">who just wants to learn and build beautiful websites and apps.</div>
+			<div class="who-creates">who loves to learn and build beautiful websites and apps.</div>
 		</div>
 
 		<div class="mouse-icon">
@@ -83,7 +82,7 @@
 
 				<div class="collapse navbar-collapse" id="custom-collapse">
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="#home">home</a></li>
+						<li><a href="#home">Home</a></li>
 						<li><a href="#portfolio">Works</a></li>
 						<li><a href="#services">Service</a></li>
 						<li><a href="#about">About</a></li>
@@ -120,7 +119,7 @@
 						<h2 class="module-title">My works</h2>
 						<div class="module-line"></div>
 						<div class="module-subtitle">
-							He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.
+							Here's a sample of the projects I've been working on for fun.
 						</div>
 						<div class="module-line"></div>
 					</div>
@@ -604,7 +603,7 @@
 				<div class="col-sm-6 col-sm-offset-3">
 
 					<div class="module-header wow fadeInUp">
-						<div class="module-icon"><span class="icon-social-twitter"></span></div>
+						<div class="module-icon"><a href="https://twitter.com/AlexanderOHan"><span class="icon-social-twitter"></span></a></div>
 					</div>
 
 					<div class="testimonials owl-carousel wow fadeInUp"></div>
@@ -621,7 +620,25 @@
 
 	<section id="map-section">
 
-		<div id="map"></div>
+		<div id="map">
+			
+		<script src="https://maps.googleapis.com/maps/api/js"></script>
+	    <script>
+	      function initialize() {
+	        var mapCanvas = document.getElementById('map');
+	        var mapOptions = {
+	          center: new google.maps.LatLng(37.75, -122.42),
+	          zoom: 12,
+	          mapTypeId: google.maps.MapTypeId.ROADMAP
+	        }
+	        var map = new google.maps.Map(mapCanvas, mapOptions)
+	      }
+	      google.maps.event.addDomListener(window, 'load', initialize);
+	    </script>
+
+
+
+		</div>
 
 	</section>
 

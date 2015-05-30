@@ -843,6 +843,8 @@ button.mfp-close {
 #map {
 	height: 450px;
 	width: 100%;
+	saturation: -100;
+
 }
 
 .ajax-response {
