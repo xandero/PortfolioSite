@@ -469,7 +469,7 @@ textarea.form-control {
 /* ---------------------------------------------- */
 
 #home {
-	background: url(../images/home2.jpg);
+	background: url("https://s3-us-west-1.amazonaws.com/portfolioxander/beach.jpg");
 	background-color: #222;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -541,8 +541,8 @@ textarea.form-control {
 
 .side-image {
 	position: absolute;
-/*	background: url(../images/about.jpg) scroll center no-repeat;
-*/	-webkit-background-size: cover;
+	background: url("https://s3-us-west-1.amazonaws.com/portfolioxander/xander-bird") scroll center no-repeat;
+	-webkit-background-size: cover;
 	   -moz-background-size: cover;
 		 -o-background-size: cover;
 			background-size: cover;
