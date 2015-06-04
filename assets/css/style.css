@@ -895,17 +895,17 @@ button.mfp-close {
 	display: block;
 	line-height: 35px;
 	text-align: center;
-	border: 1px solid rgba(255, 255, 255, .1);
+	border: 1px solid rgba(255, 255, 255, .8);
 	-webkit-border-radius: 50%;
 	   -moz-border-radius: 50%;
 			border-radius: 50%;
 	font-size: 14px;
-	color: rgba(255, 255, 255, .2);
+	color: rgba(255, 255, 255, .8);
 }
 
 .social-links a:hover {
-	border: 1px solid rgba(255, 255, 255, .5);
-	color: rgba(255, 255, 255, .5);
+	border: 2px solid rgba(255, 255, 255);
+	color: rgba(255, 255, 255, 1);
 }
 
 /* ---------------------------------------------- /*
