@@ -1,8 +1,8 @@
 <?php
 
 	// Contact
-	$to = 'web-master72@yandex.ru';
-	$subject = 'Subject here...';
+	$to = 'alexander.ohan@gmail.com';
+	$subject = 'Portfolio site new contact';
 
 	if(isset($_POST['c_name']) && isset($_POST['c_email']) && isset($_POST['c_message'])){
 		$name    = $_POST['c_name'];
@@ -11,13 +11,13 @@
 
 		if (mail($to, $subject, $message, $from)) {
 			$result = array(
-				'message' => 'Thanks for contacting us!',
+				'message' => "Thanks for contacting me! You'll hear from me soon.",
 				'sendstatus' => 1
 				);
 			echo json_encode($result);
 		} else {
 			$result = array(
-				'message' => 'Sorry, something is wrong',
+				'message' => 'Sorry, something went wrong',
 				'sendstatus' => 1
 				);
 			echo json_encode($result);
