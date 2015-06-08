@@ -17,7 +17,7 @@
 			echo json_encode($result);
 		} else {
 			$result = array(
-				'message' => 'Sorry, something went wrong',
+				'message' => 'Sorry, something went wrong. Please try again.',
 				'sendstatus' => 1
 				);
 			echo json_encode($result);
